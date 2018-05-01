@@ -5,4 +5,5 @@ import Counter from '../../shared/components/Counter'
 const Index = ({title}) => (
   <DefaultLayout><Counter/></DefaultLayout>
 )
+
 export default Index

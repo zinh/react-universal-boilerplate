@@ -5,4 +5,8 @@ router.get('/', function(req, res, next){
   res.render('index', { title: 'Hello express'})
 })
 
+router.get('/user', function (req, res, next) {
+    res.send("Hello world")
+})
+
 export default router

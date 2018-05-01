@@ -1,6 +1,5 @@
 import express from 'express'
 import indexRouter from './routes/index'
-import path from 'path'
 import jsxEngine from 'express-react-views'
 
 var app = express()
